@@ -5,34 +5,37 @@
     <title>Tic Tac Toe Game</title>
     
     <link rel="stylesheet" href="style.css" />
-    <script src="main.js"></script>
   </head>
   <body>
 
     <h1>Tic Tac Toe</h1>
-    <h2>Its your turn, <span class="display_player"></span>.</h2>
+    <h2 id = "display">Its your turn, .</h2>
+
+    <h2 id = "score">Player 1: <span id="score1"></span> | Player 2: <span id="score2"></span></h2>
 
     <div class="game_board">
       <div class='row'>
-        <div class="one"><span class="xo"></span></div>
-        <div class="two"><span class="xo"></span></div>
-        <div class="three"><span class="xo"></span></div>
+        <div class="one tile" id="one"></div>
+        <div class="two tile" id="two"></div>
+        <div class="three tile" id="three"></div>
       </div>
       <div class='row'>
-        <div class="four"><span class="xo"></span></div>
-        <div class="five"><span class="xo"></span></div>
-        <div class="six"><span class="xo"></span></div>
+        <div class="four tile" id="four"></div>
+        <div class="five tile" id="five"></div>
+        <div class="six tile" id="six"></div>
       </div>
       <div class='row'>
-        <div class="seven"><span class="xo"></span></div>
-        <div class="eight"><span class="xo"></span></div>
-        <div class="nine"><span class="xo"></span></div>
+        <div class="seven tile" id="seven"></div>
+        <div class="eight tile" id="eight"></div>
+        <div class="nine tile" id="nine"></div>
       </div>
     </div>
 
-    <button class="new_game">New Game</button>
-    <button class="reset">Reset</button>
+    <button class="new_game" id="new_game">New Game</button>
+    <button  class = "reset" id="reset">Reset</button>
   </body>
+  <script src="main.js"></script>
+
 
 
 </html>

@@ -17,6 +17,14 @@ h1 {
   font-size: 1.5em;
 }
 
+#display {
+  text-align: center;
+}
+
+#score {
+  text-align: center;
+}
+
 /* Button: NewGame and Reset */
 .new_game, .reset {
   text-align:center;
