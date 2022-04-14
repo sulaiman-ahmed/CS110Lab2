@@ -21,12 +21,20 @@ h1 {
   text-align: center;
 }
 
+#timer {
+  text-align: center;
+}
+
+#timeout_display {
+  text-align: center;
+}
+
 #score {
   text-align: center;
 }
 
 /* Button: NewGame and Reset */
-.new_game, .reset {
+.new_game, .reset, .single_player, .two_player {
   text-align:center;
   background-color: #ff8c00;
   color: #000000;
@@ -38,7 +46,7 @@ h1 {
   margin: 20px auto;
 }
 
-.new_game:hover, .reset {
+.new_game:hover, .reset:hover, .single_player:hover, .two_player:hover {
   background-color: orange;
 }
 
